@@ -9,7 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    firebase_core: ^3.5.0
+  firebase_core: ^3.5.0
+  cloud_firestore: 5.4.2
+  provider: ^6.0.0 # <-- Añade la dependencia de provider
+  go_router: ^6.0.0  # <-- Añade la dependencia de go_router
+
+
 
 dev_dependencies:
   flutter_test:
